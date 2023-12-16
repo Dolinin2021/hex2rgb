@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.input-div {
+  background-color: white;
+}
+
+.input-output-div {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  color: white;
+}
+
+.input-output-div > input {
+  max-width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-output-div > div {
+  padding: 10px;
+  width: 100%;
+  height: 35px;
+  border: 1px solid black;
+  background-color: rgb(51, 51, 73);
+}
